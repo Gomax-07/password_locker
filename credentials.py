@@ -10,7 +10,7 @@ class Credentials :
         self.first_name = first_name
         self.last_name = last_name
         self.user_password = user_password
-        
+
 
     @classmethod
     def save_credential(self):
@@ -18,6 +18,7 @@ class Credentials :
         Method to save a new object in the credential list
         '''
         Credentials.credentials_list.append(self)
+
 
 
     @classmethod
