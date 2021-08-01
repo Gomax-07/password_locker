@@ -1,4 +1,4 @@
-class Credentials :
+class Credentials 
     '''
     class that creates  users_accounts credentials
     '''
