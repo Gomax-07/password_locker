@@ -1,16 +1,26 @@
-class Credentials 
+class Credentials :
     '''
     class that creates  users_accounts credentials
     '''
 
     credentials_list = [] 
 
+    def __init__(self, account_name, first_name, last_name, user_password):
+        self.account_name = account_name
+        self.first_name = first_name
+        self.last_name = last_name
+        self.user_password = user_password
+        
+
+    @classmethod
     def save_credential(self):
         '''
         Method to save a new object in the credential list
         '''
         Credentials.credentials_list.append(self)
 
+
+    @classmethod
     def delete_credential(self):
         '''
         Method to delete a credential from the list
@@ -48,9 +58,3 @@ class Credentials
         return cls.credentials_list
 
 
-
-    def __init__(self, account_name, first_name, last_name, user_password):
-        self.account_name = account_name
-        self.first_name = first_name
-        self.last_name = last_name
-        self.user_password = user_password
