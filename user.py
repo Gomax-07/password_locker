@@ -8,7 +8,7 @@ class User:
 
         self.first_name = first_name
         self.last_name = last_name
-        self.pass_word = password
+        self.password = password
 
     def save_user(self):
 
@@ -34,7 +34,7 @@ print(user_name,password)
 
     
 
-print(new_user.last_name,new_user.first_name,new_user.pass_word)
+print(new_user.last_name,new_user.first_name,new_user.password)
 
 
 
