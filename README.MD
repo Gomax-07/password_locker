@@ -1,12 +1,5 @@
 # Password_locker
 
-
-## Program authors/collaborators:
-
-.Macharia John.
-
-Contact e-mail: gikmach@gmail.com.
-
 ## DESCRITION
 Password_locker: this is a  password generator that utilises python tools like saving,deleting,finding and ensuring existence of files and objects thus ensuring user interactivity of an account is optimized.
 
@@ -36,7 +29,13 @@ To access this project  on you local files, you can clone it using the following
 
 ## BDD.
 
-.use short codes as displayed to prompt user details while following input instructions set for login and input of details to get desired outpur
+.use short codes as displayed to prompt user details while following input instructions set for login and input of details to get desired output.
+
+## Program authors/collaborators:
+
+.Macharia John.
+
+Contact e-mail: gikmach@gmail.com.
 
 
 ## LICENSE.
