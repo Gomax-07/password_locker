@@ -20,7 +20,6 @@ class Credentials :
         Credentials.credentials_list.append(self)
 
 
-
     @classmethod
     def delete_credential(self):
         '''
@@ -38,7 +37,7 @@ class Credentials :
         for credential in cls.credentials_list:
             if credential.account_name == account_name:
                 return credential
-                
+
 
     @classmethod
     def credential_exist(cls, account_name):
