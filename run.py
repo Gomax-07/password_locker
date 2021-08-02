@@ -5,7 +5,7 @@ import string
 from user import User
 
 
-# from termcolor import colored, cprint
+
 
 def create_credential(sname, fname, lname, password):
     '''
